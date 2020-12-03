@@ -1,0 +1,49 @@
+<ons-page id="createdeal">
+    <ons-toolbar>
+        <div class="left">
+            <ons-back-button></ons-back-button>
+        </div>
+        <div class="center toolbartitle">เพิ่มรายละเอียด
+        </div>
+    </ons-toolbar>
+    <div class="container text-center MT50">
+        <div class="form-group container">
+            <div id="showName"></div>
+            <input type="text" id="problem" class="form-control inputBorder mt-5" name="" aria-describedby="helpId" placeholder="ปัญหาที่พบ" style="height: 60px;" required="required">
+            <textarea id="problemDetail" class="form-control inputBorder mt-5" aria-label="With textarea" placeholder="รายละเอียดปัญหา" style="height: 250px;"></textarea>
+
+            <div class="mt-5 text-center">
+                <p>แนบรูปปัญหา :</p>
+                <input type="file" id="pic" accept="image/*" capture="camera" style="width: 80%; text-align: center;">
+            </div>
+            <input type="submit" class="btn btnContact " placeholder="ติดต่อช่าง" onclick="notnull()">
+        </div>
+
+
+
+
+        <ons-alert-dialog id="my-alert-dialog" modifier="rowfooter">
+            <div class="alert-dialog-title font">ยืนยัน</div>
+            <div class="alert-dialog-content font">
+                ยืนยันการส่งรายละเอียดให้ช่าง</div>
+            <div class="alert-dialog-footer">
+                <ons-alert-dialog-button onclick="hideAlertDialog()"><span style="color: red;">Cancel</span> </ons-alert-dialog-button>
+                <ons-alert-dialog-button onclick="notify()">OK</ons-alert-dialog-button>
+            </div>
+        </ons-alert-dialog>
+    </div>
+
+
+    <!-- 
+    <div style="text-align: center; margin-top: 30px; width: 90%;">
+        <p>
+            <ons-input id="username" modifier="underbar" placeholder="Username"></ons-input>
+        </p>
+        <p>
+            <ons-input id="password" modifier="underbar" type="password" placeholder="Password" float></ons-input>
+        </p>
+        <p style="margin-top: 30px;">
+            <ons-button onclick="login()">Sign in</ons-button>
+        </p>
+    </div> -->
+</ons-page>

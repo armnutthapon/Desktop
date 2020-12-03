@@ -1,0 +1,432 @@
+@media only screen and (max-width: 768px) {
+    .picCard {
+        width: 100%;
+        height: 320px;
+    }
+    .cardTechName {
+        padding: 10px 0 0 5px;
+        font-size: 25px;
+    }
+    .detailLocation {
+        font-size: 20px;
+    }
+    .detailCategory {
+        font-size: 20px;
+    }
+    .detailCat {
+        text-align: left;
+        font-size: 20px;
+    }
+    .detailLocal {
+        padding: 0 0 0 0;
+        text-align: left;
+        font-size: 20px;
+    }
+    .detailName {
+        padding: 30px 0 0 20px;
+        font-size: 26px;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .picT {
+        width: 80%;
+        height: 350px;
+        border-radius: 15px;
+    }
+    .button {
+        display: table-cell;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 18px;
+    }
+    .btnContact {
+        width: 60%;
+        height: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .toolbartitle {
+        font-size: 40px;
+    }
+    .historyTopic {
+        font-size: 30px;
+    }
+    .historyDetail {
+        font-size: 26px;
+    }
+    .historyStatus {
+        font-size: 26px;
+    }
+    .historyTech {
+        font-size: 26px;
+    }
+    .historyTechName {
+        font-size: 26px;
+    }
+    .searchSize {
+        width: 680px;
+    }
+    .headertitle {
+        font-size: 30px;
+        padding: 30px 0 0 15px;
+    }
+    .commentPic {
+        height: 60px;
+        width: 50%;
+        border-radius: 50%;
+        margin: 0 0 0 45px;
+    }
+    .profilePic {
+        width: 35%;
+        height: 230px;
+    }
+    .profileHeader {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        height: 30px;
+        font-size: 28px;
+    }
+    .profileLogout {
+        font-size: 25px;
+    }
+    .profileMenulsit {
+        color: #3E3F68;
+        font-family: 'Mitr', sans-serif;
+        font-size: 25px;
+    }
+    .picLogo {
+        width: 40%;
+        height: 250px;
+    }
+    .title {
+        font-size: 60px;
+    }
+    .borderLogin {
+        height: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .checkbox {
+        font-size: 18px;
+    }
+    .btn-primary {
+        font-size: 25px;
+        width: 340px;
+    }
+    .btn-danger-Google {
+        font-size: 25px;
+        width: 340px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 415px),
+screen and (max-height: 900px) {
+    .picCard {
+        width: 100%;
+        height: 180px;
+    }
+    .picT {
+        width: 100%;
+        height: 180px;
+    }
+    .headertitle {
+        font-size: 20px;
+    }
+    .cardTechName {
+        font-size: 20px;
+    }
+    .detailLocation {
+        font-size: 16px;
+    }
+    .detailCategory {
+        font-size: 16px;
+    }
+    .toolbartitle {
+        font-size: 26px;
+    }
+    .detailName {
+        padding: 26px 0 0 20px;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .detailCat {
+        font-size: 16px;
+    }
+    .detailLocal {
+        font-size: 16px;
+    }
+    .commentPic {
+        height: 40px;
+        width: 90%;
+        border-radius: 50%;
+        margin: 0 0 0 0;
+    }
+    .searchSize {
+        width: 280px;
+    }
+    .historyTopic {
+        font-size: 22px;
+    }
+    .historyDetail {
+        font-size: 16px;
+    }
+    .historyIcon {
+        font-size: 20px;
+    }
+    .historyStatus {
+        font-size: 16px;
+    }
+    .historyTech {
+        font-size: 16px;
+    }
+    .historyTechName {
+        font-size: 16px;
+    }
+    .button {
+        display: table-cell;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .btnContact {
+        width: 100%;
+        height: 50px;
+        margin-top: 100px;
+    }
+    .tabbar__icon+.tabbar__label {
+        display: block;
+        font-size: 8px;
+        line-height: 1;
+        margin: 0;
+        font-weight: 400;
+        padding-top: 3px;
+    }
+    .tabbar__icon {
+        font-size: 20px;
+    }
+    .detaillocal {
+        font-size: 12px;
+    }
+    .detailRate {
+        font-size: 15px;
+    }
+    .commentRate {
+        font-size: 12px;
+    }
+    .btnContact {
+        margin-top: 50px;
+    }
+    .col-9 {
+        font-size: 13px;
+    }
+    .buttondetail {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .profilePic {
+        border-radius: 50%;
+        width: 50%;
+        height: 150px;
+    }
+    .profileHeader {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .profileLogout {
+        font-size: 16px;
+    }
+    .profileMenulsit {
+        color: #3E3F68;
+        font-family: 'Mitr', sans-serif;
+        font-size: 16px;
+    }
+    .picLogo {
+        width: 60%;
+        height: 200px;
+    }
+    .title {
+        font-size: 36px;
+    }
+    .borderLogin {
+        height: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .checkbox {
+        font-size: 18px;
+    }
+    .btn-primary {
+        font-size: 16px;
+        width: 250px;
+    }
+    .btn-danger-Google {
+        font-size: 16px;
+        width: 250px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .picCard {
+        width: 100%;
+        height: 180px;
+    }
+    .picT {
+        width: 100%;
+        height: 180px;
+    }
+    .headertitle {
+        font-size: 20px;
+    }
+    .cardTechName {
+        font-size: 15px;
+    }
+    .detailLocation {
+        font-size: 14px;
+    }
+    .detailCat {
+        text-align: left;
+        font-size: 15px;
+    }
+    .detailCategory {
+        font-size: 14px;
+    }
+    .toolbartitle {
+        font-size: 22px;
+    }
+    .detailName {
+        padding: 26px 0 0 20px;
+        font-size: 18px;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .commentPic {
+        height: 40px;
+        width: 90%;
+        border-radius: 50%;
+        margin: 0 0 0 0;
+    }
+    .searchSize {
+        width: 280px;
+    }
+    .historyTopic {
+        font-size: 22px;
+    }
+    .historyDetail {
+        font-size: 16px;
+    }
+    .historyIcon {
+        font-size: 20px;
+    }
+    .historyStatus {
+        font-size: 16px;
+    }
+    .historyTech {
+        font-size: 16px;
+    }
+    .historyTechName {
+        font-size: 16px;
+    }
+    .button {
+        display: table-cell;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .btnContact {
+        width: 100%;
+        height: 50px;
+        margin-top: 100px;
+    }
+    .tabbar__icon+.tabbar__label {
+        display: block;
+        font-size: 8px;
+        line-height: 1;
+        margin: 0;
+        font-weight: 400;
+        padding-top: 3px;
+    }
+    .tabbar__icon {
+        font-size: 20px;
+    }
+    .detailLocal {
+        padding: 0 0 0 0;
+        text-align: left;
+        font-size: 15px;
+    }
+    .detailRate {
+        font-size: 15px;
+    }
+    .commentRate {
+        font-size: 12px;
+    }
+    .btnContact {
+        margin-top: 50px;
+    }
+    .col-9 {
+        font-size: 13px;
+    }
+    .buttondetail {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .profilePic {
+        border-radius: 50%;
+        width: 50%;
+        height: 150px;
+    }
+    .profileHeader {
+        margin-bottom: 10px;
+        margin-top: 20px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .profileLogout {
+        font-size: 16px;
+    }
+    .profileMenulsit {
+        color: #3E3F68;
+        font-family: 'Mitr', sans-serif;
+        font-size: 16px;
+    }
+    .picLogo {
+        width: 40%;
+        height: 135px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .borderLogin {
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+    .checkbox {
+        font-size: 14px;
+    }
+    .btn-primary {
+        font-size: 14px;
+        width: 220px;
+    }
+    .btn-danger-Google {
+        font-size: 14px;
+        width: 220px;
+        margin-top: 5px;
+    }
+    .font-regist {
+        font-family: 'Mitr', sans-serif;
+        font-size: 14px;
+        color: #3E3F68;
+    }
+    .checkboxRegist {
+        font-size: 14px;
+    }
+}

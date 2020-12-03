@@ -1,0 +1,237 @@
+.headderfont {
+    font-weight: bold;
+    font-size: 36px;
+    color: #33ccff;
+    text-align: center;
+}
+
+.headdersubfont {
+    font-weight: bold;
+    font-size: 30px;
+    color: #33ccff;
+    text-align: center;
+}
+
+.back-button {
+    text-align: left;
+}
+
+.headderpadding {
+    margin-top: 20px;
+}
+
+.list-item--chevron:before {
+    position: absolute;
+    content: '';
+    right: 16px;
+    /* left: 50px; */
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.list-item--chevron2:before {
+    position: absolute;
+    content: '';
+    right: 60px;
+    /* left: 50px; */
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+.headderpaddingTop {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.topixfont {
+    font-weight: bold;
+    font-size: 24px;
+    color: #dbdedf;
+}
+
+.page__background {
+    background-color: black;
+}
+
+.list-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #dbdedf;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: #dbdedf;
+}
+
+.headderpageprofile {
+    font-weight: bold;
+    font-size: 24px;
+    color: #33ccff;
+}
+
+.fontcenter {
+    text-align: center;
+}
+
+#btnPackage :checked+.tabbar__button {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.specpackage {
+    text-align: center;
+    font-size: 20px;
+    color: #33ccff;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.icon-color-menusetting {
+    color: #dbdedf;
+    width: 50px;
+}
+
+.icon-color-signout {
+    color: red;
+    width: 50px;
+}
+
+.list-material__thumbnail {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.list-material__thumbnail {
+    width: 80px;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid #dbdedf;
+}
+
+.list-subtitle {
+    opacity: 0.75;
+    font-size: 14px;
+    color: #33ccff;
+    padding-left: 45px;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    order: 1;
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+}
+
+.list-edit-subtitle {
+    font-size: 14px;
+    color: #33ccff;
+    font-weight: bold;
+    text-align: left;
+    background-color: black;
+}
+
+.list-title {
+    -webkit-flex-basis: 100%;
+    color: #dbdedf;
+    font-size: 19px;
+    font-weight: normal;
+    padding-left: 45px;
+    flex-basis: 100%;
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    order: 0;
+}
+
+.sheet-button {
+    box-sizing: border-box;
+    font-size: 28px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #33ccff;
+    border-radius: 0;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    width: 100%;
+    background-image: linear-gradient( 0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 100%);
+}
+
+.paddibgbutton {
+    padding-top: 30px;
+}
+
+.editimage {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.editimage_thumnail {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.editimage_thumnail {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    border: 3px solid #dbdedf;
+}
+
+.tabbar-top {
+    padding-top: 15px;
+}
+
+.editbuttom {
+    text-align: center;
+}
+
+.font-input-images {
+    color: #33ccff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.edit-box {
+    color: white;
+    text-align: left;
+}
+
+.edit-size-box {
+    width: 75%;
+    display: initial;
+    height: 35px;
+}
+
+.page__background_black {
+    background-color: black;
+}
+
+.page__background_gray {
+    background-color: #282828;
+    color: #dbdedf;
+}
+
+.reportbtn {
+    border-radius: 30px;
+    background-color: red;
+}
+
+.bluebtn {
+    border-radius: 30px;
+    background-color: #33ccff;
+}
+
+.ons_back_button {
+    color: red;
+}

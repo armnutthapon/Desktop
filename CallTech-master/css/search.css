@@ -1,0 +1,72 @@
+.user_cover {
+    margin-top: 10px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.areaMovie {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding-right: 0px;
+    padding-left: 7px;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 0.8rem!important;
+}
+
+.username {
+    text-align: left;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.user_thumbnail {
+    width: 100px;
+    height: 100px;
+    display: table-cell;
+    text-align: center;
+    /* margin: auto; */
+}
+
+.user_thumbnail ons-icon {
+    font-size: 70px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.searchPoster {
+    border-radius: 10px;
+}
+
+.button {
+    display: table-cell;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#FFAA00;
+    font-family: 'Mitr', sans-serif;
+
+}
+
+
+
+ons-input .text-input,
+ons-search-input .search-input {
+    width: 100%;
+    display: inline-block;
+}

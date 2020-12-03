@@ -1,0 +1,118 @@
+hr {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #dbdedf;
+    width: 300px;
+}
+
+.page__background {
+    background-color: white;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-family: 'Mitr', sans-serif;
+    font-size: 36px;
+    color: #FFAA00;
+    font-weight: bold;
+}
+
+.font-regist {
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+    color: #3E3F68;
+}
+
+.loginGoogle {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.checkboxRegist {
+    font-family: 'Mitr', sans-serif;
+    font-size: 18px;
+    color: #FFAA00;
+    font-weight: bold;
+}
+
+.checkbox {
+    font-family: 'Mitr', sans-serif;
+    font-size: 20px;
+    color: #3E3F68;
+}
+
+.pd-15 {
+    padding: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.btn-primary {
+    font-family: 'Mitr', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #FFAA00;
+    border-color: #FFAA00;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #33ccff;
+    border-color: #33ccff;
+}
+
+.btn-primary:hover {
+    background-color: #33ccff;
+    border-color: #33ccff;
+}
+
+.btn-primary:focus {
+    border-color: #33ccff;
+}
+
+.wrong {
+    color: #fd2e2e;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    box-shadow: 0 0 0 0.2rem rgb(51 204 255);
+}
+
+.ml-mr-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-danger-Google {
+    font-family: 'Mitr', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: #de5246;
+    border-color: #de5246;
+}
+
+.borderLogin {
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px solid #FFAA00;
+    border-radius: 10px;
+}
+
+.picLogo {
+    width: 60%;
+    height: 200px;
+}

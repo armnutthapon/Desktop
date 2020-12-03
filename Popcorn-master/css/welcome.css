@@ -1,0 +1,137 @@
+.welcome {
+    font-size: 22px;
+    color: white;
+}
+
+.logowelcome {
+    width: 50%;
+    height: auto;
+}
+
+.popcorn {
+    color: #33ccff;
+    font-weight: bold;
+}
+
+.startbtn {
+    margin-top: 15px;
+    background-color: #33CCFF;
+    border-radius: 30px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* .getstart {
+    font-size: 22px;
+    font-weight: bold;
+} */
+
+.margintop {
+    margin-top: 170px;
+}
+
+.margintbtn {
+    margin-top: 50px;
+}
+
+.allmovie {
+    color: grey;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .margintop {
+        margin-top: 200px;
+    }
+    .logowelcome {
+        width: 30%;
+        height: auto;
+    }
+    .allmovie {
+        font-size: 30px;
+    }
+    .startbtn {
+        font-size: 36px;
+    }
+    .welcome {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .margintop {
+        margin-top: 150px;
+    }
+    .logowelcome {
+        width: 30%;
+        height: auto;
+    }
+    .allmovie {
+        font-size: 25px;
+    }
+    .startbtn {
+        font-size: 26px;
+    }
+    .welcome {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .margintop {
+        margin-top: 120px;
+    }
+    .logowelcome {
+        width: 40%;
+        height: auto;
+    }
+    .allmovie {
+        font-size: 14px;
+    }
+    .startbtn {
+        font-size: 18px;
+    }
+    .welcome {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .margintop {
+        margin-top: 140px;
+    }
+    .logowelcome {
+        width: 40%;
+        height: auto;
+    }
+    .allmovie {
+        font-size: 14px;
+    }
+    .startbtn {
+        font-size: 18px;
+    }
+    .welcome {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .margintop {
+        margin-top: 100px;
+    }
+    .logowelcome {
+        width: 40%;
+        height: auto;
+    }
+    .allmovie {
+        font-size: 14px;
+    }
+    .startbtn {
+        font-size: 18px;
+    }
+    .welcome {
+        font-size: 18px;
+    }
+}

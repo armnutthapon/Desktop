@@ -1,0 +1,38 @@
+<ons-page>
+    <ons-navigator swipeable id="myNavigator_search" page="search.html"></ons-navigator>
+    <template id="search.html">
+        <ons-page id="search">
+            <div class="container">
+                <p style="text-align: center; margin-top: 10px;" fullscreen>
+                    <ons-search-input placeholder="" onchange="Src()" class="searchSize" id="Srcname">
+                    </ons-search-input>
+                </p>
+                <ons-carousel swipeable auto-scroll overscrollable id="carouselSearch" style="text-align: center; background-color: black;" item-width="105px">
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="action">Action</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="anime">Anime</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="comedy">Comedy</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="drama">Drama</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="horror">Horror</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="fantasy">Fantasy</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="romance">Romance</div>
+                    </ons-carousel-item>
+                </ons-carousel>    
+                <ons-row class="user_cover" id="listMovie">
+                </ons-row>
+            </div>
+        </ons-page>
+    </template>
+</ons-page>

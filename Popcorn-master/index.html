@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Hello Firebase">
+    <link rel="apple-touch-icon" href="images/icon192x192.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/lib/onsenui/onsen-css-components.min.css">
+    <link rel="stylesheet" href="/lib/onsenui/onsenui.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/welcome.css">
+
+</head>
+
+<body style="background-color: black;">
+
+    <div class="container text-center bgblack">
+        <div class="display-5 margintop">
+            <p><img src="images/logo.png" class="logowelcome" alt=""></p>
+            <p>
+                <div><img id="photo" src="" alt=""></div>
+            </p>
+            <div class="welcome">Welcome to <span class="popcorn">POPCORN</span>
+                <div class="allmovie">All your movies in one place</div>
+            </div>
+            <div class="margintbtn">
+                <a name="" id="" class="btn btn-primary startbtn" href="popcorn.html" role="button">
+                    <div class="getstart">Get started</div>
+                </a>
+                <div id="list">
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js')
+                        .then((reg) => {});
+                });
+            }
+        </script>
+
+</body>
+
+</html>

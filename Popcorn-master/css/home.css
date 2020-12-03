@@ -1,0 +1,83 @@
+.toolbar {
+    background-color: black;
+}
+
+.tabbar {
+    background-color: black;
+}
+
+:checked+.tabbar__button {
+    color: #33CCFF;
+}
+
+.page__background {
+    background-color: black;
+}
+
+.active {
+    background-color: black;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #33CCFF;
+}
+
+.poster {
+    text-align: center;
+    width: auto;
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+}
+
+.back-button {
+    color: white;
+}
+
+.back-button__icon {
+    fill: white;
+}
+
+.topicblue {
+    color: #33CCFF;
+    font-size: 26px;
+    padding: 10px 0 10px 20px;
+}
+
+.carouselPoster {
+    width: 100%;
+    height: auto;
+}
+
+.sizeposter {
+    width: 130px;
+    height: 200px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+
+.smallposter {
+    width: 150px;
+    height: 200px;
+}
+
+.playbtn {
+    margin-top: 15px;
+    background-color: #33CCFF;
+    border-radius: 30px;
+    width: 90%;
+}
+
+.watchvideo {
+    width: 100%;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+.welcome {
+    color: #33CCFF;
+}

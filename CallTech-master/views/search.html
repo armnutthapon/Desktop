@@ -1,0 +1,45 @@
+<ons-page>
+    <ons-navigator swipeable id="Navigator_search" page="search.html"></ons-navigator>
+    <template id="search.html">
+        <ons-page id="search">
+            <ons-toolbar>
+                <div class="left">
+                    <ons-back-button></ons-back-button>
+                </div>
+                <div class="center toolbartitle">
+                    ค้นหา </div>
+            </ons-toolbar>
+            <div class="container MT">
+                <p style="text-align: center; margin-top: 10px;" fullscreen>
+                    <ons-search-input placeholder="" onchange="Src()" class="searchSize" id="Srcname">
+                    </ons-search-input>
+                </p>
+                <ons-carousel swipeable auto-scroll overscrollable id="carouselSearch" style="text-align: center;" item-width="105px">
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="ช่างไฟฟ้า">ช่างไฟฟ้า</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="ช่างประปา">ช่างประปา</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="ช่างแอร์">ช่างแอร์</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="ช่างหลังคา">ช่างหลังคา</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="ช่างเชื่อม">ช่างเชื่อม</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="ช่างยนต์">ช่างยนต์</div>
+                    </ons-carousel-item>
+                    <ons-carousel-item>
+                        <div class="button" style="width: 100px;" id="ช่างก่อสร้าง">ช่างก่อสร้าง</div>
+                    </ons-carousel-item>
+                </ons-carousel>    
+                <ons-row class="user_cover" id="listTech">
+                </ons-row>
+            </div>
+        </ons-page>
+    </template>
+</ons-page>
